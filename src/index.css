@@ -1,13 +1,66 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: large;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input-bar {
+  width: 92%;
+  height: max-content;
+  background-color: rgb(78, 80, 78);
+  padding: 3%;
+  border-radius: 5px;
+  margin: 1%;
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+}
+
+.task-list {
+  width: 100%;
+  height: fit-content;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 2%;
+  font-size: larger;
+}
+
+.task {
+  width: 97%;
+  margin: 1%;
+  background-color: rgb(129, 215, 129);
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  justify-content: space-between;
+}
+
+.task:hover {
+  background-color: rgb(9, 250, 29);
+}
+
+.add-btn {
+  background-color: rgb(23, 127, 9);
+}
+
+.clear-all {
+  display: flex;
+  justify-content: center;
+}
+
+.clear-btn {
+  width: 30%;
+  background-color: rgb(153, 221, 221);
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.clear-btn:hover {
+  background-color: rgb(55, 206, 206);
 }
